@@ -1,0 +1,15 @@
+.info_main_div{
+    width: 100%;
+    margin-top: 40px;
+    text-align: center;
+}
+.fa-undo:hover{
+
+}
+.Project_name{
+    font-size: 20pt;
+    font-weight: bold;
+}
+.Pro_info{
+    margin: 20px 60px 0px 60px;
+}
