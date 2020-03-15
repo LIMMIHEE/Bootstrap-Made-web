@@ -3,13 +3,42 @@
     margin-top: 40px;
     text-align: center;
 }
-.fa-undo:hover{
-
+.Lan_Div{
+    margin-bottom: 30px;
 }
-.Project_name{
+.Project_Detail_explanation{
+    margin-bottom: 30px;
+}
+.Scroollspy_cs{
+    margin-top: 30px;
+    margin-left: 15%;
+    position: relative;
+    display: flex;
+    width: 80%;
+}
+#list{
+
+    height: 150px;
+    width: 200px;
+}
+#list a{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.scrollspy{
+    padding: 15px;
+    overflow:scroll;
+    width: 70%;
+    height: 300px;
+}
+.alert-secondary{
+    margin-left:40px; margin-right:40px;
+    background-color: rgb(172, 172, 172); 
+    color: white;
     font-size: 20pt;
     font-weight: bold;
 }
 .Pro_info{
-    margin: 20px 60px 0px 60px;
+
+    margin: 20px 130px 0px 130px;
 }

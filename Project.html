@@ -16,10 +16,11 @@
           <link href="css/Project.css" rel="stylesheet">
           <script>$('.carousel').carousel({
             interval: 300
-          })</script>
+          })
+          $('body').scrollspy({ target: '#navbar-example' })</script>
   </head>
 
-  <body>
+  <body >
     <i class="fa fa-caret-square-o-left  fa-3x " aria-hidden="true" style="margin: 20px;"></i>
 
     
@@ -59,18 +60,76 @@
         
 
     <div class="info_main_div">
-      <div class="alert alert-secondary" role="alert"  style="margin-left:40px; margin-right:40px; background-color: rgb(172, 172, 172); color: white;">
-        A simple secondary alert—check it out!
+      <div class="Lan_Div">
+        <span class="badge badge-pill badge-success">HTML</span>
+        <span class="badge badge-pill badge-dark">CSS</span>
+        <span class="badge badge-pill badge-dark">JavaScript</span>
+        <span class="badge badge-pill badge-dark">PHP</span>
       </div>
-        <p class="Project_name">프로젝트 이름</p>
+      <div class="alert alert-secondary" role="alert" >
+        프로젝트 이름
+      </div>
+ 
         <span>  개인 / 팀</span>
 
         <div class="Pro_info">
           <i class="fas fa-quote-left fa-2x fa-pull-left"></i>
+          <div class="Project_Detail_explanation">
+            프로젝트에 대한 기본적인 설명을 먼저 해봅시다.
+            
+          </div>
           <p>이건 이런 생각에서 만들어졌다,</p>
+          
             가나다라마바사 관련 사용 정보나 일화들을 적어사 활용을 해봅시다
+            가나다라마바사 관련 사용 정보나 일화들을 적어사 활용을 해봅시다
+            가나다라마바사 관련 사용 정보나 일화들을 적어사 활용을 해봅시다
+            <br><br>
+            아래는 언어별 사용하면서 느낀거나 그런거
+            
         </div>
+        
     </div>
+
+    <main data-spy="scroll" data-target="#navbar-example">
+    <div class="Scroollspy_cs">
+      <div id="list" class="list-group">
+        <a class="list-group-item list-group-item-action" href="#list-item-1">Item 1</a>
+        <a class="list-group-item list-group-item-action" href="#list-item-2">Item 2</a>
+        <a class="list-group-item list-group-item-action" href="#list-item-3">Item 3</a>
+        <a class="list-group-item list-group-item-action" href="#list-item-4">Item 4</a>
+      </div>
+      <div data-spy="scroll" data-target="#list" data-offset="0" class="scrollspy">
+        <h4 id="list-item-1">Item 1</h4>
+        <p>x consequat commodo adipisicing exercitation aute excepteur occaeca
+          t ullamco duis aliqua id magna ullamco eu. Do aute ipsum ipsum ullamc
+          o cillum consectetur ut et aute consectetur labore. Fugiat laborum in
+          cididunt tempor eu consequat enim dolore proident. Qui laborum do non
+          excepteur nulla magna eiusmod consectetur in
+          . Aliqua et aliqua officia quis et incididunt vol</p>
+        <h4 id="list-item-2">Item 2</h4>
+        <p>x consequat commodo adipisicing exercitation aute excepteur occaeca
+          t ullamco duis aliqua id magna ullamco eu. Do aute ipsum ipsum ullamc
+          o cillum consectetur ut et aute consectetur labore. Fugiat laborum in
+          cididunt tempor eu consequat enim dolore proident. Qui laborum do non
+          excepteur nulla magna eiusmod consectetur in
+          . Aliqua et aliqua officia quis et incididunt vol</p>
+        <h4 id="list-item-3">Item 3</h4>
+        <p>x consequat commodo adipisicing exercitation aute excepteur occaeca
+          t ullamco duis aliqua id magna ullamco eu. Do aute ipsum ipsum ullamc
+          o cillum consectetur ut et aute consectetur labore. Fugiat laborum in
+          cididunt tempor eu consequat enim dolore proident. Qui laborum do non
+          excepteur nulla magna eiusmod consectetur in
+          . Aliqua et aliqua officia quis et incididunt vol</p>
+        <h4 id="list-item-4">Item 4</h4>
+        <p>x consequat commodo adipisicing exercitation aute excepteur occaeca
+          t ullamco duis aliqua id magna ullamco eu. Do aute ipsum ipsum ullamc
+          o cillum consectetur ut et aute consectetur labore. Fugiat laborum in
+          cididunt tempor eu consequat enim dolore proident. Qui laborum do non
+          excepteur nulla magna eiusmod consectetur in
+          . Aliqua et aliqua officia quis et incididunt vol</p>
+      </div>
+  </div>
+</main>
     <!-- Bootstrap core JavaScript
     ================================================== -->
     </body>
