@@ -4,11 +4,31 @@ body{
     background: rgba(0, 0, 0, 0);
 }
 .Main_Div{
-    background: linear-gradient( rgba(238, 238, 238, 0.897), rgba(75, 75, 75, 0.89));;
+    background: linear-gradient( rgba(238, 238, 238, 0.897), rgba(44, 44, 44, 0.89));;
     margin-top: 120px; 
     border-radius: 100px 100px 0 0;
 }
-
+.Main_text_C_1{
+    display: flex;
+    width: 300px; height: 300px;
+    background-color: rgb(114, 114, 114);
+    border-radius: 100%;
+    margin-left: 72%;    margin-top: -300px;
+}
+.Main_text_C_2{
+    display: flex;
+    width: 150px; height: 150px;
+    background-color: rgba(223, 223, 223, 0.753);
+    border-radius: 100%;
+    margin-left: 72%;    margin-top: -35px;
+}
+.Main_text_C_3{
+    display: flex;
+    width: 50px; height: 50px;
+    background-color: rgba(128, 128, 128, 0.753);
+    border-radius: 100%;
+    margin-left: 72%;    margin-top: -60px;
+}
 .btn-primary {
   background-image:none;
 }
@@ -47,21 +67,23 @@ body{
 .Project_bar_AllLan{
 
     text-align: center;
-    display:inline-block; position: relative; background-color: rgb(41, 41, 41); width: 100%;
+    display:inline-block; position: relative; background-color:rgb(230, 230, 230); width: 100%;
     height: 250px;margin-left: 10vmin; border-radius: 20px;
 }
 .Project_bar_Game{
-    float: left; background: linear-gradient(to right,white,gray); width: 30%;
+    float: left; background: linear-gradient(to right, rgb(41, 41, 41),gray); width: 30%;
     height: 250px;
 }
 .Project_bar_Game button{
     margin-top: 75px;
     padding: 20px;
-    background-color: rgb(141, 141, 141);
-    color: white;
+    background-color: rgb(255, 255, 255, 0);
+    color: rgb(197, 197, 197);
+    border: 3px solid white;
 }
 .Project_bar_Game button:hover{
-    background-color: rgb(255, 255, 255);
+    border: 3px solid gray;
+    color: white;
 }
 .Project_bar_Game p{
     width: 150px;
@@ -69,13 +91,13 @@ body{
     margin-left: 5vm;
 }
 .Project_bar_Web{
-    float: left; background: linear-gradient(to right,gray,rgb(41, 41, 41)); width: 30%;
+    float: left; background: linear-gradient(to right,gray,rgb(230, 230, 230)); width: 30%;
     height: 250px;
 }
 .Project_bar_Web button{
     margin-top: 75px;
     padding: 20px;
-    color: white;
+    color: rgb(240, 240, 240);
     border: 3px solid rgba(255, 255, 255, 0.808);
     background-color: rgba(73, 73, 73, 0.596);
 }
@@ -85,20 +107,34 @@ body{
 }
 .btn-outline-light {
     margin-top: 75px;
-    background-color: rgb(255, 255, 255, 0);
-    color: gray;
-    border: 3px solid white;
+    background-color: rgb(141, 141, 141);
+    color: white;
     
 }
 .btn-outline-light:hover{
-    border: 3px solid gray;
-    color: white;
+    background-color: rgb(255, 255, 255);
 }
 
 
+
+.Branch{
+    background-image: url(https://user-images.githubusercontent.com/48482259/76949532-02956e80-694c-11ea-8174-c023dd5da66a.png);
+    background-repeat: no-repeat; background-position: center;
+    height: 1000px;
+     color: white;
+}
+.Space_Club{
+   padding-top: 60px; margin-left: 30%;
+    display: flex; font-size: 14pt; font-weight: bold;
+}
+.Space_Club_info{ margin-left: 30%;}
+
+
+
+
 #pro_div{
-    background-color: rgba(139, 139, 139, 0.425); 
-    border:2vmin solid rgb(255, 255, 255); border-radius: 1em; 
+    background-color: rgba(255, 255, 255, 0.425); 
+    border:2vmin solid rgb(65, 65, 65); border-radius: 1em; 
 }
 .row{
      width:100%;
@@ -124,4 +160,18 @@ body{
 .info_Text{
     margin-left: 100px; margin-top: -91px;
     width: 400px;
+}
+
+
+@media (min-width:801px) and ( max-width: 1217px){/* 노트북 */
+    .Space_Club{
+        margin-left: 20%;
+     }
+     .Space_Club_info{ margin-left: 20%;}
+   
+}
+@media (min-width:0px) and ( max-width: 801px){/* 노트북 */
+    .Space_Club{ margin-left: 5%;}
+     .Space_Club_info{ margin-left: 5%;}
+   
 }
